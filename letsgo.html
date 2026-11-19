@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            font-family: tahoma;
+        }
+
+        body {
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD5BZFnMybC-LsOdffwtSlm1S-Ox2GzhOe_rSIntqMh8x5ratfs1-Bepc&s=10);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        .login-card {
+            background-color: white;
+            border: 1px solid white;
+            border-radius: 20px;
+            padding: 40px;
+           
+        }
+
+        input {
+            width: 200px; 
+        }
+
+        .password-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-card">
+        <h1>Login</h1>
+
+        <form>
+            username <br>
+            <input type="text"> <br><br>
+            password <br>
+            <div class="password-row">
+                <input type="password">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <br>
+    </div>
+</body>
+
+</html>
